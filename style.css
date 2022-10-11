@@ -1,0 +1,244 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.line1 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/* Address */
+.fa-location-dot {
+    float: left;
+}
+
+.address h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* Product Details */
+.product-detail h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.product-detail p {
+    font-size: 13px;
+    color: #808080;
+    margin-bottom: 4px;
+}
+
+.product-line-item {
+    margin-top: 25px;
+}
+
+.cart-item-footer {
+    margin-top: -30px;
+}
+
+.cart-item-footer p {
+    font-weight: 600;
+    color: black;
+}
+
+.cart-summary {
+    margin-top: 35px;
+}
+
+#button-addon2 {
+    border-radius: 0%;
+}
+
+#button-addon2:hover {
+    background-color: #fff;
+    color: black;
+    border-color: black;
+}
+
+.addon-input {
+    border-color: black;
+    border-radius: 0%;
+}
+
+/* Total List */
+.order-action {
+    border-radius: 0%;
+    padding: 10px 120px;
+}
+
+/* Contact */
+.contact {
+    background-color: #151515;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+.contact h3 {
+    color: #4D8B55;
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 95px;
+}
+
+.contact p {
+    font-size: 14px;
+    color: #bbb;
+    font-weight: 700;
+}
+
+.contact i {
+    color: #4D8B55;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact-us:hover {
+    opacity: 0.8;
+}
+
+/* Follow Us */
+.wrapper {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.wrapper-facebook {
+    margin-left: -12px;
+}
+
+.wrapper .icon {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.wrapper .icon span {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background-color: #4D8B55;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.wrapper .icon span i {
+    line-height: 40px;
+    color: #000;
+}
+
+.wrapper .facebook:hover span,
+.wrapper .instagram:hover span,
+.wrapper .linkedin:hover span,
+.wrapper .twitter:hover span {
+    background-color: #000;
+}
+
+.wrapper .facebook:hover span i,
+.wrapper .instagram:hover span i,
+.wrapper .linkedin:hover span i,
+.wrapper .twitter:hover span i {
+    color: #4D8B55;
+}
+
+/* Icon WA */
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+/* Keyframs */
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* Mobile Version */
+@media (max-width: 767px) {
+    .contact {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .wrapper-facebook {
+        margin-left: -10px;
+    }
+
+    .contact .col-md-4 {
+        margin-top: -30px;
+    }
+
+    .contact .address {
+        margin-top: -40px;
+    }
+
+    .contact .working-hours {
+        margin-top: -40px;
+    }
+}
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    .product-line-item {
+        margin-top: 0px;
+    }
+
+    .cart-summary {
+        margin-top: 0px;
+    }
+
+    .off-lg-1 {
+        margin-left: 50px;
+    }
+
+    .shipping {
+        margin-bottom: 30px;
+    }
+}
